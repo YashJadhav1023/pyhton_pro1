@@ -1,5 +1,5 @@
-lask 
-flask-sqlalchemy 
-gunicorn 
-pytest 
-pytest-flask 
+flask
+flask-sqlalchemy
+gunicorn
+pytest
+pytest-flask
