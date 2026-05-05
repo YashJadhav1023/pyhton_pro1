@@ -8,7 +8,7 @@ env:
   # Your ACR login server (e.g., myappregistry.azurecr.io) 
   ACR_LOGIN_SERVER: yashprojectreg2026.azurecr.io 
   # The name your Docker image will have inside ACR 
-  IMAGE_NAME: PythonAPP1 
+  IMAGE_NAME: myapp 
 jobs: 
   # ───────────────────────────────────────────── 
   # JOB 1: Run tests 
