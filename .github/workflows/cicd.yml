@@ -30,6 +30,7 @@ jobs:
           subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
           resourceGroupName: 'rg-myapp-cicd'
           template: ./main.bicep
+          # This 'webAppName' must match the 'param webAppName' in Bicep
           parameters: webAppName=yash-python-app
 
   # ───────────────────────────────────────────── 
